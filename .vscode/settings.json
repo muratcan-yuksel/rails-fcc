@@ -7,7 +7,8 @@
     "html": "html",
     "css": "css",
     "html.erb": "html",
-    "erb": "html"
+    "erb": "html",
+    "haml": "haml"
   },
   "security.workspace.trust.untrustedFiles": "open",
   "explorer.confirmDelete": false,

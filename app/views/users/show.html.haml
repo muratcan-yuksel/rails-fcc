@@ -1,0 +1,17 @@
+%p
+  %strong First name:
+  = @user.first_name
+%p
+  %strong Last name:
+  = @user.last_name
+%p
+  %strong Email:
+  = @user.email
+%p
+  %strong Phone:
+  = @user.phone
+%p
+  %strong Twitter:
+  = @user.twitter
+= link_to 'Edit', edit_user_path(@user), class:"btn btn-secondary"
+= link_to 'Back', users_path, class:"btn btn-dark"
