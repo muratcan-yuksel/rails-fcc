@@ -16,7 +16,18 @@
     <title>Rails app</title>
   </head>
   <body>
+  <%
+=begin%>
+ see, we didn't write underscore header
+  it works this way 
+  they're called partials 
+<%
+=end%>
+  <%= render 'home/header' %>
+  <div class="container">
     <%= yield %>
+  
+  </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
